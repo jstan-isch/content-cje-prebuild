@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	file, err := os.Create("test.jsp")
+	file, err := os.Create("index.jsp")
 	if err != nil {
 		log.Fatal("Cannot create file", err)
 	}
